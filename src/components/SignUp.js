@@ -39,7 +39,9 @@ const SignUp =() => {
             rows={5}
              />
         </div>
-        <Button name={`Continue`} />
+        <Button
+        link='/confirm'
+        name={`Continue`} />
        </form>
        
         </div>

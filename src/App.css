@@ -93,10 +93,12 @@ form{
   margin: 0 auto;  
 }
 form textarea,
+select,
 input[type='text'],
 input[type='email'],
 input[type='number'],
-input[type='password']
+input[type='password'],
+input[type='date']
 {
   width: 100%;
   padding: 15px 0;
@@ -143,7 +145,11 @@ span {
   flex-direction: row;
   flex-wrap: nowrap;
   gap: 10px;
-  overflow-x: scroll;
+  overflow-x: auto;
+}
+.link{
+  text-decoration: none;
+  color: #000;
 }
 @media (min-width: 700px) {
   .hero h1 {

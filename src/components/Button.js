@@ -1,8 +1,10 @@
+import { Link } from "react-router-dom";
+
 const Button =(props)=> {
 
     return(
-        <button className="yellow-btn">
-        {props.name}
+        <button type="submit" className="yellow-btn">
+        <Link className="link" to={props.link}>{props.name}</Link>
         </button>
     )
 }

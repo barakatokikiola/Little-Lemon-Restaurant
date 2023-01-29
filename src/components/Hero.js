@@ -20,7 +20,9 @@ const Hero =()=>{
                 <img src={heroimg} className='responsive' alt='' />
                 </div>
             </div>
-            <Button name='Reserve a table' />
+            <Button
+             link='/booking'
+             name='Reserve a table' />
         </div>
     )
 }
